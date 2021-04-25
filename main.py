@@ -31,11 +31,11 @@ def persist():  # just dump everything, lol
 
 
 @app.get("/", response_class=HTMLResponse)
-async def index(request: Request, sort: Optional[int]):
+async def index(request: Request, sort: int = 0):
     sortings = [lambda img: img.filename,
                 lambda img: -img.score(),
                 lambda img: -img.nr_votes()]
-    img = sorted(app.images.values(), key=sortings[max(sort, 0) or 0])
+    img = sorted(app.images.values(), key=sortings[sort if sort in range(3) else 0])
     return templates.TemplateResponse("index.html", {"request": request, "images": img})
 
 

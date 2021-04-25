@@ -29,6 +29,5 @@ for nr, i in enumerate(img):
 	except Exception as e:
 		print(e)
 
-os.move("images", "../static/images")
 with open("../store.yml", "w") as p:
 	yaml.dump(vs, p)
