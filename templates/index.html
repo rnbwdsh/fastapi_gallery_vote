@@ -1,0 +1,35 @@
+{% macro vote(img) -%}
+<div class="vote">
+    {{ img.html() -}}
+    <div class="details">
+	    <div class="plus">   {{"+"*(img.plus | length)}}<a href="vote?vote=plus&item={{img.filename}}">+</a></div>
+	    <div class="neutral">{{"o"*(img.neutral | length)}}<a href="vote?vote=neutral&item={{img.filename}}">o</a></div>
+	    <div class="minus">  {{"-"*(img.minus | length)}}<a href="vote?vote=minus&item={{img.filename}}">-</a></div>
+	</div>
+	    Score: {{img.score()}}
+</div>
+{%- endmacro %}
+
+<html>
+<head>
+    <title>ÖH INF/AI Logo Vote</title>
+    <link href="{{ url_for('static', path='/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+	<div>Sorting: 
+		<a href="?sort=0">filename</a>
+		<a href="?sort=1">score</a>
+		<a href="?sort=2">votes</a>
+	</div>
+    <div class="flexparent">
+	    {% for img in images %}
+		    {{vote(img)}}
+	    {% endfor %}
+    	<form class="vote votableText" action="upload" method="post" enctype="multipart/form-data">
+    		Chose a png to upload.
+    		<input type="file" name="file" accept="image/png"/>
+    		<button type="submit">Submit</button>
+    	</form>
+    </div>
+</body>
+</html>

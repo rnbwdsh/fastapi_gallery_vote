@@ -1,0 +1,548 @@
+image1.png: !!python/object:voteable.Voteable
+  filename: image1.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  text: ''
+image10.png: !!python/object:voteable.Voteable
+  filename: image10.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image11.png: !!python/object:voteable.Voteable
+  filename: image11.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  neutral: !!set
+    0: null
+  plus: !!set
+    0: null
+  text: ''
+image12.png: !!python/object:voteable.Voteable
+  filename: image12.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+  plus: !!set
+    0: null
+  text: ''
+image13.png: !!python/object:voteable.Voteable
+  filename: image13.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+  plus: !!set
+    0: null
+  text: ''
+image14.png: !!python/object:voteable.Voteable
+  filename: image14.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  plus: !!set
+    0: null
+  text: ''
+image16.png: !!python/object:voteable.Voteable
+  filename: image16.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+  neutral: !!set
+    0: null
+  plus: !!set {}
+  text: ''
+image17.png: !!python/object:voteable.Voteable
+  filename: image17.png
+  minus: !!set {}
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+  text: ''
+image18.png: !!python/object:voteable.Voteable
+  filename: image18.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+    1: null
+  text: ''
+image19.png: !!python/object:voteable.Voteable
+  filename: image19.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image2.png: !!python/object:voteable.Voteable
+  filename: image2.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+  neutral: !!set {}
+  plus: !!set
+    0: null
+    1: null
+  text: ''
+image20.png: !!python/object:voteable.Voteable
+  filename: image20.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+  neutral: !!set
+    0: null
+  plus: !!set {}
+  text: ''
+image21.png: !!python/object:voteable.Voteable
+  filename: image21.png
+  minus: !!set {}
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+  plus: !!set
+    0: null
+  text: ''
+image22.png: !!python/object:voteable.Voteable
+  filename: image22.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image23.png: !!python/object:voteable.Voteable
+  filename: image23.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  plus: !!set {}
+  text: ''
+image24.png: !!python/object:voteable.Voteable
+  filename: image24.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+  text: ''
+image25.png: !!python/object:voteable.Voteable
+  filename: image25.png
+  minus: !!set {}
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+  text: ''
+image26.png: !!python/object:voteable.Voteable
+  filename: image26.png
+  minus: !!set {}
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image27.png: !!python/object:voteable.Voteable
+  filename: image27.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+  text: ''
+image28.png: !!python/object:voteable.Voteable
+  filename: image28.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+  neutral: !!set
+    0: null
+  plus: !!set {}
+  text: ''
+image29.png: !!python/object:voteable.Voteable
+  filename: image29.png
+  minus: !!set
+    0: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+  text: ''
+image3.png: !!python/object:voteable.Voteable
+  filename: image3.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+  text: ''
+image30.png: !!python/object:voteable.Voteable
+  filename: image30.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+  text: ''
+image31.png: !!python/object:voteable.Voteable
+  filename: image31.png
+  minus: !!set {}
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+  plus: !!set {}
+  text: ''
+image32.png: !!python/object:voteable.Voteable
+  filename: image32.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+  plus: !!set
+    0: null
+  text: ''
+image33.png: !!python/object:voteable.Voteable
+  filename: image33.png
+  minus: !!set
+    0: null
+  neutral: !!set
+    0: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+  text: ''
+image34.png: !!python/object:voteable.Voteable
+  filename: image34.png
+  minus: !!set {}
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+  text: ''
+image35.png: !!python/object:voteable.Voteable
+  filename: image35.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+  neutral: !!set
+    0: null
+  plus: !!set {}
+  text: ''
+image36.png: !!python/object:voteable.Voteable
+  filename: image36.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+  text: ''
+image37.png: !!python/object:voteable.Voteable
+  filename: image37.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image38.png: !!python/object:voteable.Voteable
+  filename: image38.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set {}
+  text: ''
+image39.png: !!python/object:voteable.Voteable
+  filename: image39.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+  neutral: !!set {}
+  plus: !!set
+    0: null
+  text: ''
+image4.png: !!python/object:voteable.Voteable
+  filename: image4.png
+  minus: !!set
+    0: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+  plus: !!set
+    0: null
+    1: null
+  text: ''
+image40.png: !!python/object:voteable.Voteable
+  filename: image40.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image41.png: !!python/object:voteable.Voteable
+  filename: image41.png
+  minus: !!set
+    0: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  text: ''
+image42.png: !!python/object:voteable.Voteable
+  filename: image42.png
+  minus: !!set {}
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image43.png: !!python/object:voteable.Voteable
+  filename: image43.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+  neutral: !!set
+    0: null
+  plus: !!set {}
+  text: ''
+image44.png: !!python/object:voteable.Voteable
+  filename: image44.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+  neutral: !!set
+    0: null
+  plus: !!set {}
+  text: ''
+image45.png: !!python/object:voteable.Voteable
+  filename: image45.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+    5: null
+    6: null
+    7: null
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''
+image5.png: !!python/object:voteable.Voteable
+  filename: image5.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  plus: !!set {}
+  text: ''
+image6.png: !!python/object:voteable.Voteable
+  filename: image6.png
+  minus: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+    4: null
+  neutral: !!set
+    0: null
+  plus: !!set {}
+  text: ''
+image7.png: !!python/object:voteable.Voteable
+  filename: image7.png
+  minus: !!set
+    0: null
+  neutral: !!set
+    0: null
+    1: null
+    2: null
+    3: null
+  plus: !!set
+    0: null
+    1: null
+  text: ''
+image8.png: !!python/object:voteable.Voteable
+  filename: image8.png
+  minus: !!set
+    0: null
+    1: null
+  neutral: !!set
+    0: null
+    1: null
+  plus: !!set
+    0: null
+    1: null
+  text: ''
+image9.png: !!python/object:voteable.Voteable
+  filename: image9.png
+  minus: !!set {}
+  neutral: !!set {}
+  plus: !!set {}
+  text: ''

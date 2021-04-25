@@ -1,0 +1,7 @@
+.votableText, .icon {width: 8em; height: 8em; }
+.details {display:flex; justify-content: space-between;}
+.plus {	color: green;}
+.neutral {color: blue;}
+.minus {color: red;}
+.flexparent {display: flex; flex-wrap: wrap; justify-content: space-evenly;}
+.vote { padding: 10px;}
