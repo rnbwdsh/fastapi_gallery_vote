@@ -5,6 +5,7 @@ from fastapi import FastAPI, Request, File, UploadFile, status
 from fastapi.responses import HTMLResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
+from fastapi_utils.tasks import repeat_every
 from typing import Optional
 
 from voteable import Voteable, IMGDIR
@@ -24,6 +25,7 @@ def startup():
         app.images = {fn: Voteable(fn) for fn in os.listdir(IMGDIR)}
 
 
+@repeat_every(seconds=60 * 10)  # 10 mins
 @app.on_event("shutdown")
 def persist():  # just dump everything, lol
     with open("store.yml", "w") as jsonf:

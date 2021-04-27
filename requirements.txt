@@ -4,3 +4,5 @@ starlette==0.13.8
 MarkupSafe==1.1.1
 PyYAML==5.4.1
 python-multipart==0.0.5
+aiofiles==0.6.0
+fastapi-utils
