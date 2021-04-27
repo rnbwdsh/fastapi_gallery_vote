@@ -644,8 +644,8 @@ image5.png: !!python/object:voteable.Voteable
   minus: !!set
     0: null
     1: null
-    86.56.190.18: null
     217.149.166.25: null
+    86.56.190.18: null
   neutral: !!set
     0: null
     1: null
